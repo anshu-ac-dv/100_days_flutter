@@ -10,18 +10,23 @@ class Onboarding extends StatefulWidget {
 }
 
 class _OnboardingState extends State<Onboarding> {
-
   List<PageViewModel> getPages() {
-    return[
-     PageViewModel(
-      title: "Title of first page",
-      body: "Here you can write the description of the page",
-     ),
+    return [
       PageViewModel(
+        decoration: PageDecoration(imageFlex: 2),
+        image: Image.asset("assets/light.jpg"),
+        title: "Title of first page",
+        body: "Here you can write the description of the page",
+      ),
+      PageViewModel(
+        decoration: PageDecoration(imageFlex: 2),
+        image: Image.asset("assets/light.jpg"),
         title: "Title of Second page",
         body: "Here you can write the description of the page",
       ),
       PageViewModel(
+        decoration: PageDecoration(imageFlex: 2),
+        image: Image.asset("assets/light.jpg"),
         title: "Title of Third page",
         body: "Here you can write the description of the page",
       ),
