@@ -39,7 +39,7 @@ class _OnboardingState extends State<Onboarding> {
       body: IntroductionScreen(
         showSkipButton: true,
         skip: Text("Skip"),
-        next: Icon(Icons.next_plan),
+        next: Icon(Icons.arrow_forward_rounded),
         done: Text("Done"),
         dotsDecorator: DotsDecorator(
           color: Colors.grey,
