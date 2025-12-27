@@ -1,6 +1,5 @@
 import 'dart:async';
 import 'package:flutter/material.dart';
-import 'package:flutter_ui_design/home_screen.dart';
 import 'package:flutter_ui_design/screens/onBoarding.dart';
 
 class SplashScreen extends StatefulWidget {
@@ -26,9 +25,9 @@ class _SplashScreenState extends State<SplashScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       body: Container(
-        color: Colors.white,
+        color: Colors.amber,
         child: Center(
-          child: Image.asset("assets/light.jpg", height: 100,),
+          child: Text("PicHub", style: TextStyle(fontWeight: FontWeight.bold, fontSize: 30),)
         ),
       ),
     );
