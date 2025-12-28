@@ -119,7 +119,7 @@ class _LoginpageState extends State<Loginpage> {
                           ),
                           child: IconButton(
                             onPressed: () {},
-                            icon: Image.asset("assets/light.jpg", height: 50),
+                            icon: Image.asset("assets/google.png", height: 50),
                           ),
                         ),
                         Container(
@@ -128,7 +128,16 @@ class _LoginpageState extends State<Loginpage> {
                           ),
                           child: IconButton(
                             onPressed: () {},
-                            icon: Image.asset("assets/light.jpg", height: 50),
+                            icon: Image.asset("assets/facebook.png", height: 50),
+                          ),
+                        ),
+                        Container(
+                          decoration: BoxDecoration(
+                            borderRadius: BorderRadius.circular(100),
+                          ),
+                          child: IconButton(
+                            onPressed: () {},
+                            icon: Image.asset("assets/x.png", height: 50),
                           ),
                         ),
                       ],
