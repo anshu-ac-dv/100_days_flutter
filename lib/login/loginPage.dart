@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_ui_design/home_screen.dart';
+import 'package:flutter_ui_design/login/signUp.dart';
 
 class Loginpage extends StatefulWidget {
   const Loginpage({super.key});
@@ -48,7 +50,12 @@ class _LoginpageState extends State<Loginpage> {
                     ),
                     SizedBox(height: 20),
                     ElevatedButton(
-                      onPressed: () {},
+                      onPressed: () {
+                        Navigator.pushReplacement(
+                          context,
+                          MaterialPageRoute(builder: (context) => HomeScreen()),
+                        );
+                      },
                       style: ElevatedButton.styleFrom(
                         backgroundColor: Colors.amber,
                         elevation: 0,
@@ -67,7 +74,12 @@ class _LoginpageState extends State<Loginpage> {
                       width: double.infinity,
                       height: 50,
                       child: OutlinedButton(
-                        onPressed: () {},
+                        onPressed: () {
+                          Navigator.push(
+                            (context),
+                            MaterialPageRoute(builder: (context) => Signup()),
+                          );
+                        },
                         child: Text(
                           "Create Account",
                           style: TextStyle(fontSize: 18),
