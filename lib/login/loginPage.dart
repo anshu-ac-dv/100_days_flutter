@@ -97,6 +97,28 @@ class _LoginpageState extends State<Loginpage> {
                         ),
                       ],
                     ),
+                    SizedBox(height: 20),
+                    Row(
+                      mainAxisAlignment: MainAxisAlignment.center,
+                      children: [
+                        Container(
+                          decoration: BoxDecoration(
+                            borderRadius: BorderRadius.circular(100),
+                            border: Border.all(
+                              //color: Colors.grey,
+                              width: 0,
+                            ),
+                          ),
+                          child: IconButton(
+                            onPressed: () {},
+                            icon: Image.asset("assets/light.jpg", height: 50),
+                          ),
+                        ),
+                        Container(
+                          child: Image.asset("assets/light.jpg", height: 50),
+                        ),
+                      ],
+                    ),
                   ],
                 ),
               ),
