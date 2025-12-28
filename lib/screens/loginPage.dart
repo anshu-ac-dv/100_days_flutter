@@ -49,12 +49,28 @@ class _LoginpageState extends State<Loginpage> {
                     SizedBox(height: 20),
                     ElevatedButton(
                       onPressed: () {},
-                      child: Text("Login"),
                       style: ElevatedButton.styleFrom(
                         backgroundColor: Colors.amber,
                         elevation: 0,
                         shape: RoundedRectangleBorder(
                           borderRadius: BorderRadius.circular(20),
+                        ),
+                        fixedSize: Size(400, 50),
+                      ),
+                      child: Text(
+                        "Login",
+                        style: TextStyle(color: Colors.white, fontSize: 18),
+                      ),
+                    ),
+                    SizedBox(height: 20),
+                    SizedBox(
+                      width: double.infinity,
+                      height: 50,
+                      child: OutlinedButton(
+                        onPressed: () {},
+                        child: Text(
+                          "Create Account",
+                          style: TextStyle(fontSize: 18),
                         ),
                       ),
                     ),
