@@ -1,16 +1,5 @@
-# flutter_ui_design
+# 100 Days of Flutter Design.
 
-A new Flutter project.
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Day 1
+> Creating a new repository for 100 days flutter UI design.
+> Adding [Splash Screen](#https://github.com/anshu-ac-dv/100_days_flutter/blob/master/lib/screens/splash_screen.dart) in our project. 
