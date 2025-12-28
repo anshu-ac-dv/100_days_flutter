@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_ui_design/home_screen.dart';
+import 'package:flutter_ui_design/screens/loginPage.dart';
 import 'package:introduction_screen/introduction_screen.dart';
 
 class Onboarding extends StatefulWidget {
@@ -14,19 +14,25 @@ class _OnboardingState extends State<Onboarding> {
     return [
       PageViewModel(
         decoration: PageDecoration(imageFlex: 3),
-        image: Image.network("https://gaaraexport.com/wp-content/uploads/2024/11/naomi-mango.png"),
+        image: Image.network(
+          "https://gaaraexport.com/wp-content/uploads/2024/11/naomi-mango.png",
+        ),
         title: "Title of first page",
         body: "Here you can write the description of the page",
       ),
       PageViewModel(
         decoration: PageDecoration(imageFlex: 3),
-        image: Image.network("https://image.similarpng.com/file/similarpng/very-thumbnail/2020/11/Fresh-red-apple-isolated-on-transparent-background-PNG.png"),
+        image: Image.network(
+          "https://image.similarpng.com/file/similarpng/very-thumbnail/2020/11/Fresh-red-apple-isolated-on-transparent-background-PNG.png",
+        ),
         title: "Title of Second page",
         body: "Here you can write the description of the page",
       ),
       PageViewModel(
         decoration: PageDecoration(imageFlex: 3),
-        image: Image.network("https://img.freepik.com/free-psd/vibrant-tropical-fruit-medley-burst-summer-flavors_191095-81030.jpg?semt=ais_hybrid&w=740&q=80"),
+        image: Image.network(
+          "https://img.freepik.com/free-psd/vibrant-tropical-fruit-medley-burst-summer-flavors_191095-81030.jpg?semt=ais_hybrid&w=740&q=80",
+        ),
         title: "Title of Third page",
         body: "Here you can write the description of the page",
       ),
@@ -48,7 +54,7 @@ class _OnboardingState extends State<Onboarding> {
         onDone: () {
           Navigator.pushReplacement(
             context,
-            MaterialPageRoute(builder: (context) => HomeScreen()),
+            MaterialPageRoute(builder: (context) => Loginpage()),
           );
         },
         pages: getPages(),
