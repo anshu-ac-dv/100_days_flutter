@@ -104,10 +104,6 @@ class _LoginpageState extends State<Loginpage> {
                         Container(
                           decoration: BoxDecoration(
                             borderRadius: BorderRadius.circular(100),
-                            border: Border.all(
-                              //color: Colors.grey,
-                              width: 0,
-                            ),
                           ),
                           child: IconButton(
                             onPressed: () {},
@@ -115,7 +111,13 @@ class _LoginpageState extends State<Loginpage> {
                           ),
                         ),
                         Container(
-                          child: Image.asset("assets/light.jpg", height: 50),
+                          decoration: BoxDecoration(
+                            borderRadius: BorderRadius.circular(100),
+                          ),
+                          child: IconButton(
+                            onPressed: () {},
+                            icon: Image.asset("assets/light.jpg", height: 50),
+                          ),
                         ),
                       ],
                     ),
