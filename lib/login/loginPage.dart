@@ -74,6 +74,29 @@ class _LoginpageState extends State<Loginpage> {
                         ),
                       ),
                     ),
+                    SizedBox(height: 30),
+                    Row(
+                      mainAxisAlignment: MainAxisAlignment.center,
+                      children: [
+                        Flexible(
+                          child: Divider(
+                            color: Colors.grey,
+                            thickness: 2,
+                            indent: 60,
+                            endIndent: 5,
+                          ),
+                        ),
+                        Text("Or Sign In With"),
+                        Flexible(
+                          child: Divider(
+                            color: Colors.grey,
+                            thickness: 2,
+                            indent: 5,
+                            endIndent: 60,
+                          ),
+                        ),
+                      ],
+                    ),
                   ],
                 ),
               ),
