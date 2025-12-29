@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:lottie/lottie.dart';
 import 'package:flutter_ui_design/login/loginPage.dart';
 import 'package:introduction_screen/introduction_screen.dart';
 
@@ -14,9 +15,7 @@ class _OnboardingState extends State<Onboarding> {
     return [
       PageViewModel(
         decoration: PageDecoration(imageFlex: 3),
-        image: Image.network(
-          "https://gaaraexport.com/wp-content/uploads/2024/11/naomi-mango.png",
-        ),
+        image: Lottie.asset("assets/cart.json"),
         title: "Title of first page",
         body: "Here you can write the description of the page",
       ),
