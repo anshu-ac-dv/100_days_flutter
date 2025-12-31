@@ -15,8 +15,10 @@ class _OnboardingState extends State<Onboarding> {
     return [
       PageViewModel(
         decoration: PageDecoration(imageFlex: 3),
-        image: Lottie.asset("assets/cart.json"),
-        title: "Title of first page",
+        image: Lottie.network(
+          "https://lottie.host/4cd78823-fd24-45a5-aa78-38dd9640acea/M7lkXosV97.json",
+        ),
+        title: "Welcome To PicHub",
         body: "Here you can write the description of the page",
       ),
       PageViewModel(
