@@ -23,18 +23,18 @@ class _OnboardingState extends State<Onboarding> {
       ),
       PageViewModel(
         decoration: PageDecoration(imageFlex: 3),
-        image: Image.network(
-          "https://image.similarpng.com/file/similarpng/very-thumbnail/2020/11/Fresh-red-apple-isolated-on-transparent-background-PNG.png",
+        image: Lottie.network(
+          "https://lottie.host/3ecb54e0-e788-4de7-920b-b75e22592005/N4QHUutsdD.json",
         ),
-        title: "Title of Second page",
+        title: "Buy your favourite item here.",
         body: "Here you can write the description of the page",
       ),
       PageViewModel(
         decoration: PageDecoration(imageFlex: 3),
-        image: Image.network(
-          "https://img.freepik.com/free-psd/vibrant-tropical-fruit-medley-burst-summer-flavors_191095-81030.jpg?semt=ais_hybrid&w=740&q=80",
+        image: Lottie.network(
+          "https://lottie.host/3aa08a1d-2bd4-44a4-8a4b-b4f577dd4ded/J4tQUN1Jos.json",
         ),
-        title: "Title of Third page",
+        title: "Get your item delivered at your doorstep.",
         body: "Here you can write the description of the page",
       ),
     ];
