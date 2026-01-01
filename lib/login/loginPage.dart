@@ -19,7 +19,7 @@ class _LoginpageState extends State<Loginpage> {
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
-              Image.asset(height: 150, "assets/light.jpg"),
+              Image.asset(height: 150, "assets/logo.png"),
               Text("Welcome", style: TextStyle(fontSize: 30)),
               Text(
                 "Login low to go home screen",
