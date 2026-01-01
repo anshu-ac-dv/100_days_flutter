@@ -93,16 +93,16 @@ class _LoginpageState extends State<Loginpage> {
                         Flexible(
                           child: Divider(
                             color: Colors.grey,
-                            thickness: 2,
+                            thickness: 1,
                             indent: 60,
                             endIndent: 5,
                           ),
                         ),
-                        Text("Or Sign In With"),
+                        Text(" Or Sign In With "),
                         Flexible(
                           child: Divider(
                             color: Colors.grey,
-                            thickness: 2,
+                            thickness: 1,
                             indent: 5,
                             endIndent: 60,
                           ),
