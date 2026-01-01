@@ -47,7 +47,7 @@ class _OnboardingState extends State<Onboarding> {
         showSkipButton: true,
         skip: Text("Skip"),
         next: Icon(Icons.arrow_forward_rounded),
-        done: Text("Done"),
+        done: Text("Get Started"),
         dotsDecorator: DotsDecorator(
           color: Colors.grey,
           activeColor: Colors.black,
