@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_ui_design/home_screen.dart';
+import 'package:flutter_ui_design/login/forgetPassword.dart';
 import 'package:flutter_ui_design/login/signUp.dart';
 
 class Loginpage extends StatefulWidget {
@@ -19,7 +20,9 @@ class _LoginpageState extends State<Loginpage> {
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
+              // This is Logo
               Image.asset(height: 150, "assets/logo.png"),
+              // This is Welcome.
               Text("Welcome", style: TextStyle(fontSize: 30)),
               Text(
                 "Login low to go home screen",
@@ -47,6 +50,18 @@ class _LoginpageState extends State<Loginpage> {
                           borderRadius: BorderRadius.circular(20),
                         ),
                       ),
+                    ),
+                    SizedBox(height: 10),
+                    TextButton(
+                      onPressed: () {
+                        Navigator.push(
+                          (context),
+                          MaterialPageRoute(
+                            builder: (context) => Forgetpassword(),
+                          ),
+                        );
+                      },
+                      child: Text("Forget Password?"),
                     ),
                     SizedBox(height: 20),
                     ElevatedButton(
@@ -128,7 +143,10 @@ class _LoginpageState extends State<Loginpage> {
                           ),
                           child: IconButton(
                             onPressed: () {},
-                            icon: Image.asset("assets/facebook.png", height: 50),
+                            icon: Image.asset(
+                              "assets/facebook.png",
+                              height: 50,
+                            ),
                           ),
                         ),
                         Container(
