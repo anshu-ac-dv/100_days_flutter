@@ -10,7 +10,6 @@ class HomeScreen extends StatelessWidget {
         title: Text("Home Screen"),
         centerTitle: true,
       ),
-
     );
   }
 }
