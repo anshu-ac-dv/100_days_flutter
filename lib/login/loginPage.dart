@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_ui_design/bottm_navigation.dart';
 import 'package:flutter_ui_design/home_screen.dart';
 import 'package:flutter_ui_design/login/forgetPassword.dart';
 import 'package:flutter_ui_design/login/signUp.dart';
@@ -68,7 +69,7 @@ class _LoginpageState extends State<Loginpage> {
                       onPressed: () {
                         Navigator.pushReplacement(
                           context,
-                          MaterialPageRoute(builder: (context) => HomeScreen()),
+                          MaterialPageRoute(builder: (context) => BottmNavigation()),
                         );
                       },
                       style: ElevatedButton.styleFrom(
