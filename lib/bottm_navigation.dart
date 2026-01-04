@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:google_fonts/google_fonts.dart';
 
 class BottmNavigation extends StatefulWidget {
   const BottmNavigation({super.key});
@@ -14,13 +13,39 @@ class _BottmNavigationState extends State<BottmNavigation> {
 
   // 2. Create a list of widgets (pages) to show for each tab
   final List<Widget> _screens = [
-    const Column(
+    Column(
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
-        SizedBox(height: 50),
-        Text(
-          "Home",
-          style: TextStyle(fontSize: 40, fontWeight: FontWeight.bold),
+        const SizedBox(height: 50),
+        const Padding(
+          padding: EdgeInsets.only(top: 20, left: 20),
+          child: Text(
+            "Welcome to PicHub",
+            style: TextStyle(fontSize: 30, fontWeight: FontWeight.bold),
+          ),
+        ),
+        const Padding(
+          padding: EdgeInsets.only(top: 10, left: 20),
+          child: Text("Explore the world of photography"),
+        ),
+        const Padding(
+          padding: EdgeInsets.only(top: 10, left: 20),
+          child: Text("Categories", style: TextStyle(fontSize: 20),),
+        ),
+        Padding(
+          padding: const EdgeInsets.only(top: 20, left: 20),
+          child: SingleChildScrollView(
+            child: Row(
+              children: [
+                // Image.asset("assets/google.png", height: 80,),
+                // Image.asset("assets/google.png", height: 80,),
+                // Image.asset("assets/google.png", height: 80,),
+                // Image.asset("assets/google.png", height: 80,),
+                // Image.asset("assets/google.png", height: 80,),
+
+              ],
+            ),
+          ),
         ),
       ],
     ),
