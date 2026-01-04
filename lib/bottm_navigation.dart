@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
 
 class BottmNavigation extends StatefulWidget {
   const BottmNavigation({super.key});
@@ -15,7 +16,13 @@ class _BottmNavigationState extends State<BottmNavigation> {
   final List<Widget> _screens = [
     const Column(
       crossAxisAlignment: CrossAxisAlignment.start,
-      children: [SizedBox(height: 50), Text("Home")],
+      children: [
+        SizedBox(height: 50),
+        Text(
+          "Home",
+          style: TextStyle(fontSize: 40, fontWeight: FontWeight.bold),
+        ),
+      ],
     ),
     const Column(
       crossAxisAlignment: CrossAxisAlignment.start,

@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_ui_design/bottm_navigation.dart';
 import 'package:flutter_ui_design/screens/splash_screen.dart';
 
 void main() {
@@ -16,7 +17,8 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         colorScheme: .fromSeed(seedColor: Colors.deepPurple),
       ),
-      home: SplashScreen(),
+      //home: SplashScreen(),
+      home: BottmNavigation(),
     );
   }
 }
