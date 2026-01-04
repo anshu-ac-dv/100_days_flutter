@@ -13,18 +13,22 @@ class _BottmNavigationState extends State<BottmNavigation> {
 
   // 2. Create a list of widgets (pages) to show for each tab
   final List<Widget> _screens = [
-    const Center(
-      child: Text("Home Page"),
-    ), // Replace with your Home Screen widget
-    const Center(
-      child: Text("Profile Page"),
-    ), // Replace with your Profile Screen widget
-    const Center(
-      child: Text("Wishlist Page"),
-    ), // Replace with your Wishlist Screen widget
-    const Center(
-      child: Text("Cart Page"),
-    ), // Replace with your Cart Screen widget
+    const Column(
+      crossAxisAlignment: CrossAxisAlignment.start,
+      children: [SizedBox(height: 50), Text("Home")],
+    ),
+    const Column(
+      crossAxisAlignment: CrossAxisAlignment.start,
+      children: [SizedBox(height: 50)],
+    ),
+    const Column(
+      crossAxisAlignment: CrossAxisAlignment.start,
+      children: [SizedBox(height: 50)],
+    ),
+    const Column(
+      crossAxisAlignment: CrossAxisAlignment.start,
+      children: [SizedBox(height: 50)],
+    ),
   ];
 
   @override
@@ -37,8 +41,7 @@ class _BottmNavigationState extends State<BottmNavigation> {
         height: 80,
         elevation: 0,
         backgroundColor: Colors.amber,
-        indicatorColor:
-            Colors.white, // Makes the selected item look nicer
+        indicatorColor: Colors.white, // Makes the selected item look nicer
         // 4. Bind the current index to the navigation bar
         selectedIndex: _selectedIndex,
 
