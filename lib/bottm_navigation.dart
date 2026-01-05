@@ -30,7 +30,7 @@ class _BottmNavigationState extends State<BottmNavigation> {
         ),
         const Padding(
           padding: EdgeInsets.only(top: 10, left: 20),
-          child: Text("Categories", style: TextStyle(fontSize: 20),),
+          child: Text("Categories", style: TextStyle(fontSize: 20)),
         ),
         Padding(
           padding: const EdgeInsets.only(top: 20, left: 20),
@@ -42,7 +42,6 @@ class _BottmNavigationState extends State<BottmNavigation> {
                 // Image.asset("assets/google.png", height: 80,),
                 // Image.asset("assets/google.png", height: 80,),
                 // Image.asset("assets/google.png", height: 80,),
-
               ],
             ),
           ),
